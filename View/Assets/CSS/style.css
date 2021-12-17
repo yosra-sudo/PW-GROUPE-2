@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #e4ebd8;
+}
+nav h1{
+    color: #df1ed5;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: rgb(143, 72, 113);
+    margin-right: 10px;
+    border-bottom: 1px solid rgb(121, 12, 12);
+    padding-bottom: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('2018_5image_14_25_389744000read.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.form {
+    padding: 30px 40px; 
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-control input:focus {
+    outline: 0;
+    border-color: #777;
+}
+textarea {
+    min-height: 8em;
+    min-width: 100% ;
+    padding: .5em;
+    border: solid 1px #999;
+
+}
+header button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color:rgb(143, 72, 113);
+    border:none;
+    margin-bottom: 30px;
+    outline:none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}

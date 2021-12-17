@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #e4ebd8;
+}
+nav h1{
+    color: #df1ed5;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: rgb(143, 72, 113);
+    margin-right: 10px;
+    border-bottom: 1px solid rgb(121, 12, 12);
+    padding-bottom: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('image.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 300px;
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+header button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color:rgb(137, 235, 238);
+    border:none;
+    margin-bottom: 30px;
+    outline:none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
